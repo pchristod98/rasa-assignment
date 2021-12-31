@@ -47,7 +47,7 @@
 ``rasa --version``
 
 Αυτή η εντολή ελέγχει ποιά έκδοση του Rasa έχει εγκατασταθεί. Εδώ, θα πρέπει να σας τυπώσει κάτι αντίστοιχο με αυτό:
-
+```
 Rasa Version      :         2.8.15
 Minimum Compatible Version: 2.8.9
 Rasa SDK Version  :         2.8.3
@@ -55,6 +55,7 @@ Rasa X Version    :         None
 Python Version    :         3.8.12
 Operating System  :         Linux-5.13.0-1007-gcp-x86_64-with-glibc2.29
 Python Path       :         /workspace/rasa-project/venv/bin/python
+```
 
 Πλεόν, σε αυτό το σημείο θα μπορείτε να χρησιμοποιήσετε το Rasa. Για να φτιάξετε ένα νέο project χρησιμοποιείτε την εντολή:
 
@@ -70,6 +71,7 @@ Python Path       :         /workspace/rasa-project/venv/bin/python
 
 Πλεόν, εδώ θα πρέπει να σας τυπώσει τα προηγούμενα συν το Rasa X που μόλις εγκαταστήσαμε, άρα θα τυπωθεί κάτι αντίστοιχο με αυτό:
 
+```
 Rasa Version      :         2.8.15
 Minimum Compatible Version: 2.8.9
 Rasa SDK Version  :         2.8.3
@@ -77,6 +79,7 @@ Rasa X Version    :         1.0.0
 Python Version    :         3.8.12
 Operating System  :         Linux-5.13.0-1007-gcp-x86_64-with-glibc2.29
 Python Path       :         /workspace/rasa-project/venv/bin/python
+```
 
 ## Οδηγίες χρήσης για το έτοιμο image του Gitpod
 Αν έχετε οποιοδήποτε θέμα με το να εγκαταστήσετε το Rasa τοπικά στον υπολογιστή σας, για τη διευκόλυνσή σας έχουμε έτοιμάσει και ένα έτοιμο workspace στο εργαλείο Gitpod, με προεγκατεστημένο το Rasa, όπως είχαμε δείξει και στο μάθημα. Έχετε υπόψη ότι το Gitpod στην free έκδοσή του επιτρέπει μέχρι 50 ώρες χρήσης του workspace το μήνα.
