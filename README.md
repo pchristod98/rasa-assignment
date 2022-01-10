@@ -22,11 +22,19 @@
 
 2. Στη συνέχεια, πρέπει να εγκαταστήσουμε τo Rasa. Για να το κάνουμε αυτό, θα δημιουργήσουμε ένα virtual environment σε Python. Αρχικά φτιάξτε ένα φάκελο όπου μέσα θα θέλετε να φτιάξετε την εργασία σας (αν έχετε κάνει fork αυτό το repository, χρησιμοποιήστε τον φάκελο όπου το κάνατε clone). Ανοίξτε αυτόν τον φάκελο με ένα PowerShell (αν χρησιμοποιείτε Windows) ή με ένα terminal (αν είστε σε MacOS/Linux). Εκεί, πρέπει πρώτα να εγκαταστήσουμε τη δυνατότητα δημιουργίας virtual environments σε Python, με την εντολή:
 
+για Linux:
 ``python3.7 -m pip install virtualenv``
+
+για Windows:
+``python -m pip install virtualenv``
 
 και μετά, για να δημιουργήσουμε ένα virtual environment, τρέχουμε την εντολή:
 
+για Linux:
 ``python3.7 -m virtualenv venv``
+
+για Windows:
+``python -m virtualenv venv``
 
 Αν όλα έχουν γίνει σωστά, θα πρέπει να δείτε να δημιουργείται ένας φάκελος μέσα στο project σας με το όνομα venv. Για να χρησιμοποιήσουμε το virtual environment που μόλις φτιάξαμε, κάνουμε:
 
