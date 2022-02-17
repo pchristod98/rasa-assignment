@@ -1,0 +1,183 @@
+version: "3.0"
+
+#slots:
+#  answered_yes:
+#    type: bool
+#    mappings:
+#    - type: from_intent
+#      intent: affirm
+#      value: true
+#    - type: from_intent
+#      intent: deny
+#      value: false
+
+intents:
+- cost
+- contact
+- thanks
+- greet
+- affirm
+- courses
+- appform
+- goodbye
+- aim
+- specializations
+- duration
+- criteria
+- accdegrees
+- formdocs
+- career
+- deny
+- capabilities
+- help
+- bot_challenge
+
+responses:
+
+  utter_greet:
+  - text: |
+      Welcome to Technologies of Interactive Systems Master Program! 
+      I am your personal assistant and I am going to provide you the information you need about the Master.
+      How can I help you?
+
+  utter_cost:
+  - text: |
+      Master costs 600 euros per semester.
+      Are you interested in part-time study?
+
+  utter_aim:
+  - text: The purpose of Technologies of Interactive Systems Master Degree is to provide a high level of study in specialized subjects of advanced interactive software and hardware technologies. The program offers a carefully selected set of objects, which meets the aforementioned purpose through a balanced approach, which combines the deepening of scientific foundations, the systematic design of interactive systems and the practice through dealing with realistic design and implementation problems.
+
+  utter_courses:
+  - text: |
+      Students choose 4 courses in the first 2 semesters. 
+      The 3rd semester is dedicated to master thesis.
+      Courses attendance is mandatory. 
+      Would you like to see the courses per semester?
+      
+  utter_courpersem:
+  - text: |
+      First Semester:
+      1. Data Statistical Analysis
+      2. Internet Of Things
+      3. Human Computer Interaction
+      4. Collaborative Technologies
+      5. Conversational Agents
+      6. Information Project Management and Entrepreneurship
+      7. Cybersecurity
+      
+      Second Semester:
+      1. Open Hardware/Software Technologies
+      2. Optimization Techniques
+      3. Hardware/Software Co-design
+      4. Wearable/Mobile Technologies
+      5. Serious Games
+      6. Learning Analytics
+      7. Embedded and Cyber-physical Systems
+      8. Interactive Portable Device Applications
+      9. Edge Computing
+      10. Blockchain Technology and Applications
+
+      For more details follow the link below: 
+      https://ihst.csd.auth.gr/en/msc-courses/   
+
+  utter_specializations:
+  - text: There are not specialization courses. The postgraduate degree is uniform, regardless of the chosen courses.
+
+  utter_duration:
+  - text: The postgraduate study program lasts for 3 semesters.
+
+  utter_criteria:
+  - text: |
+      The selection criteria of the candidates in scale (%):
+      1. Degree grade> = 6.0 (40%)
+      2. Published papers (20%)
+      3. Languages (5%)
+      4. Research or professional activity (10%)
+      5. Interview (25%)
+
+  utter_accdegrees:
+  - text: |
+      The following study degrees are accepted to attend the Postgraduate Program:
+      1. Graduates of Informatics Departments or Polytechnics Departments.
+      2. Graduates of Departments of Faculties of Sciences or equivalent departments of Higher Education Institutions or related departments of domestic institutions or similar institutions abroad.
+      3. Graduates of Military Schools with a background in Informatics.
+      4. Graduate students in related Departments.
+
+  utter_appform:
+  - text: |
+      The submission of the application form is done electronically through: 
+      https://ihst.csd.auth.gr/admissions/wp-login.php?redirect_to=%2Fadmissions%2F
+      Submissions time period are announced in master's website.
+
+  utter_formdocs:
+  - text: |
+      The necessary supporting documents for the submission of the application form are:
+      1. Curriculum Vitae
+      2. Copy of Degree
+      3. Copy of certificate of detailed Undergraduate Degree
+      4. Proof of language proficiency
+      5. Copy of ID or Passport
+      6. Two small personal photographs
+      7. Proof of other qualifications (if existed)
+
+  utter_career:
+  - text: |
+      1. Software Engineer
+      2. UX Designer
+      3. Front-end Developer
+      4. Interaction Analysis Expert
+      5. Usability Engineer
+      6. Data Analytics Developer
+      7. Python Developer
+      8. Learning Technologies Specialist 
+      9. Mobile Apps Analyst/Developer
+      10. Serious Game Designer 
+      11. UI Designer
+      12. IoT system Programmer
+
+  utter_ptstudy:
+#  - condition:
+#      - type: slot
+#        name: answered_yes
+#        value: true
+   - text: "The part-time study students attend the half of studies program and they pay 300 euros per semester."
+
+  utter_help:
+  - text: Can i help you with anything else?
+
+  utter_capabilities:
+  - text: |
+      I am able to inform you about:
+      Master's costs
+      Courses
+      Duration of studies
+      Criteria for selecting candidates students
+      Application submission
+      Required documents for application submission
+      Career prospects
+      Contact details
+      
+      Please type any of the above options..
+
+  utter_contact:
+  - text: |
+      Telephone number: 0030 2310998930
+      Email: pms_info@csd.auth.gr
+
+  utter_thanks:
+  - text: You're welcome! Can I help you in anything else?
+
+  utter_goodbye:
+  - text: I am always at your service!
+
+  utter_iamabot:
+  - text: I am a bot.
+
+  utter_rephrase:
+  - text: |
+       I am sorry. Could you rephrase please?
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

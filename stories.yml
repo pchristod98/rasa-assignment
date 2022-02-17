@@ -1,0 +1,102 @@
+version: "3.0"
+
+stories:
+
+- story: aim path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: aim
+  - action: utter_aim
+
+- story: cost path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cost
+  - action: utter_cost
+#  - slot_was_set:
+#    - answered_yes: true
+  - intent: affirm
+  - action: utter_ptstudy
+
+- story: cost path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cost
+  - action: utter_cost
+  - intent: deny
+  - action: utter_help
+  - intent: affirm
+  - action: utter_capabilities
+
+
+- story: lessons path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: courses
+  - action: utter_courses
+  - intent: affirm
+  - action: utter_courpersem
+
+- story: lessons path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: courses
+  - action: utter_courses
+  - intent: deny
+  - action: utter_help
+  - intent: specializations
+  - action: utter_specializations
+
+- story: duration path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: duration
+  - action: utter_duration
+  - intent: courses
+  - action: utter_courses
+
+- story: criteria path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: criteria
+  - action: utter_criteria
+  - intent: accdegrees
+  - action: utter_accdegrees
+
+- story: form path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: appform
+  - action: utter_appform
+  - intent: formdocs
+  - action: utter_formdocs
+
+- story: career path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: career
+  - action: utter_career
+
+- story: capabilities path
+  steps:
+  - intent: capabilities
+  - action: utter_capabilities
+
+- story: contact path
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- story: thanks path
+  steps:
+  - intent: thanks
+  - action: utter_thanks

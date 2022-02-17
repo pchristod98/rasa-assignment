@@ -1,0 +1,153 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+    - good night
+    - bye
+    - goodbye
+    - bye bye
+
+- intent: thanks
+  examples: |
+    - ok
+    - okay
+    - okey
+    - o k 
+    - thanks
+    - thank you very much
+
+- intent: aim
+  examples: |
+    - what is the aim of the master 
+    - tell me about the Master 
+    - what is it
+    - what is the purpose of the master degree
+    - what is this master 
+    - I want to learn more about the master degree
+
+- intent: cost
+  examples: |
+    - How much does it cost?
+    - What is the cost?
+    - I want to know the cost of attending
+    - I want to get informed about the financial
+
+- intent: courses 
+  examples: |
+    - what courses are offered
+    - what are the courses
+    - what subjects are offered
+    - how many courses does each semester have
+    - How many courses are there
+    - i am looking for the offered courses
+    - how many courses are offered
+    - how many courses are there
+    - what are the lessons
+    - what lessons are taught
+
+- intent: specializations 
+  examples: |
+    - are there any specializations
+    - what are the specialization
+    - tell me about the specializations
+
+- intent: duration
+  examples: |
+    - how long does it take
+    - how long it lasts
+    - what is the duration
+    - what is the duration of the master degree
+    - how many semesters are there 
+
+- intent: criteria
+  examples: |
+    - what does it take to be accepted
+    - what are the criteria
+    - What are the criteria for selecting candidates
+    - what are the conditions for selecting candidates
+    - What are the requirements for selecting candidates
+    - how to be accepted
+
+- intent: accdegrees
+  examples: |
+    - what should I have studied
+    - what are the previous study requirements
+    - what about previous studies
+    - what academic school should I have graduated from
+    - where shoud i have graduated from
+
+- intent: appform
+  examples: |
+    - where do I apply
+    - How can I apply
+    - is the application submitted electronically
+    - can I apply online
+
+
+- intent: formdocs
+  examples: |
+    - what are the necessary supporting documents
+    - what documents do I have to submit?
+    - tell me about the sumbission documents 
+    - what are the required documents to sumbit?
+
+- intent: career
+  examples: |
+    - What are the career prospects?
+    - What job will I do?
+    - What profession will I follow when I graduate?
+    - What can I do professionally   
+
+- intent: contact
+  examples: |
+    - i am looking for contact details of secretary
+    - how can i contact with secretary
+    - i want a contact telephone number
+    - give me the secretary's contact e-mail
+    - please give the contact details
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - I don't think so
+    - not really
+
+- intent: capabilities
+  examples: |
+    - how can you help me
+    - i need your help
+    - what can you do for me
+    - what to do you know
+    - help me, please
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

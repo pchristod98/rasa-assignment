@@ -1,0 +1,73 @@
+version: "3.0"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Answer about duration anytime the user says 'duration'
+  steps:
+  - intent: duration
+  - action: utter_duration
+
+- rule: Answer about cost anytime the user says 'cost'
+  steps:
+  - intent: cost
+  - action: utter_cost
+
+- rule: Answer about the purpose of the Program anytime the user says 'aim' or 'purpose'
+  steps:
+  - intent: aim
+  - action: utter_aim
+
+- rule: Answer about courses anytime the user says 'lessons' or 'courses'
+  steps:
+  - intent: courses
+  - action: utter_courses
+
+- rule: Answer about cost anytime the user says 'cost'
+  steps:
+  - intent: cost
+  - action: utter_cost
+
+- rule: Answer about documents study anytime the user says 'documents'
+  steps:
+  - intent: formdocs
+  - action: utter_formdocs
+
+- rule: Answer about the application form anytime the user says 'application'
+  steps:
+  - intent: appform
+  - action: utter_appform
+
+- rule: Answer about accepted degrees anytime the user says 'accepted degrees'
+  steps:
+  - intent: accdegrees
+  - action: utter_accdegrees
+
+- rule: Answer about criteria anytime the user says 'criteria'
+  steps:
+  - intent: criteria
+  - action: utter_criteria
+
+- rule: Answer about the specializations anytime the user says 'specializations'
+  steps:
+  - intent: specializations
+  - action: utter_specializations
+
+- rule: Answer about career anytime the user says 'career'
+  steps:
+  - intent: career
+  - action: utter_career
+
+- rule: Help anytime the user says 'help'
+  steps:
+  - intent: help
+  - action: utter_help
